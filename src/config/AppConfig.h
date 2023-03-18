@@ -12,7 +12,7 @@ const String ws_hostname = "wss://websocket.cioty.com/"; // DO NOT CHANGE
 const String ws_service = "{{subdomain}}/{{servicename}}"; // SUBDOMAIN / SERVICE NAME
 const String ws_ghost_id = "1";   // GHOST ID
 const String ws_action = "/channel";
-const String ws_url = ws_hostname + ws_service + "/" + ws_ghost_id +  ws_action;
+const String ws_url = ws_hostname + ws_service + "/" + ws_ghost_id +  ws_action; // FOLLOW THIS LINK FOR MORE INFO: https://github.com/NornirAS/HACKATHON_2023/blob/0a2fcf703e0345b2551034bf56d25ccf6ebec10b/WEBSOCKET.md
 
 const char cert[] PROGMEM = \
 "-----BEGIN CERTIFICATE-----\n" \
