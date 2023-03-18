@@ -7,10 +7,10 @@ const char* WIFI_PASS = "Your wifi passwd";
 using namespace websockets;
 WebsocketsClient ws_channel;
 
-const String token = "aToken_36d8715e3531fd8e8c01fcbfd26bf5af1908e14f15014d2d14817b568bc0bb0e";
-const String ws_hostname = "wss://websocket.cioty.com/";
-const String ws_service = "hackathon/devkit";
-const String ws_ghost_id = "1";   // TO DO : Add your assigned ghost id
+const String token = "aToken_36d8715e3531fd8e8c01fcbfd26bf5af1908e14f15014d2d14817b568bc0bb0e"; // TOKEN
+const String ws_hostname = "wss://websocket.cioty.com/"; // DO NOT CHANGE
+const String ws_service = "{{subdomain}}/{{servicename}}"; // SUBDOMAIN / SERVICE NAME
+const String ws_ghost_id = "1";   // GHOST ID
 const String ws_action = "/channel";
 const String ws_url = ws_hostname + ws_service + "/" + ws_ghost_id +  ws_action;
 
